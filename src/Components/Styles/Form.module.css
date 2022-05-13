@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    gap: 0.5rem;
+}
+
+.form input {
+    height: 1.75rem;
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.form input:focus {
+    outline: none;
+    border: 2px solid rgb(214, 219, 248);
+}
+
+.invalid {
+    border: 1px solid rgb(250, 72, 72) !important;
+    background-color: rgb(236, 176, 169);
+}
